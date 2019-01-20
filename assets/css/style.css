@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#header-background {
+    padding-top: 2rem;
+    text-align: center;
+    background: url(../images/head-banner-img.jpg);
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Buttons Div */
+/* Where all the menu buttons are rendered */
+#new-btn-div {
+    text-align: center;
+}
+
+/* Elements */
+h1 {
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+}
+h2 {
+    margin: 2rem auto 0 auto;
+}
+h5 {
+    text-align: center;
+}
+button {
+    margin: 1rem;
+}
+
+/* Main Div */
+/* Where all the content is displayed */
+#content {
+    width: 90%;
+    padding: 2rem;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+/* GIF Card */
+#gif-card {
+    padding: .2rem;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+}
+.renderGif {
+    float: left;
+}
+.gif {
+    margin: .2rem 1rem 2rem 1rem;
+}
+.label {
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+/* Search Card */
+#search-card {
+    padding: .2rem;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+}
+#new-search {
+    text-align: center;
+}
+
+#custom-card {
+    padding: .2rem;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+    /* background: #888; */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px){
+    .gif {
+        width: 200px;
+    }
+}
+
+/* Small devices (from 576px and till 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .gif {
+        max-width: 300px;
+    }
+}

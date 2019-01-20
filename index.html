@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Giphy by Dendevpro</title>
+
+    <!-- Bootstrap CSS CDN  -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-flex">
+        <div class="row" id="header-background">
+            <div class="col-md-12">
+                <h1>Rise and Grind</h1>
+                <h2>Tales of any given Monday</h2>
+                <p id="call-2-action">Press the buttons below to start</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- On Document Ready the Given Buttons will be Rendered Here  -->
+        <div class="col-md-12 bg-info" id="new-btn-div">
+        </div>
+    </div>
+
+    <div class="container-flex" id="content">
+
+        <div class="row">
+            <div class="col-md-9">
+                <div class="card" id="gif-card">
+                    <div class="card-header">
+                        <h5>Click on any image to animate it</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Rendered GIFs and Respective Ratings will be displayed here -->
+                        <div id="display-div"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" id="search-display">
+                <div class="card" id="search-card">
+                    <div class="card-header">
+                        <h5 class="card-title">Are we missing anything?</h5>
+                    </div>
+                    <div class="card-body">
+                        <input type="search" class="form-control" id="new-search" placeholder="Type here to add a topic">
+                        <button type="search" class="btn btn-info btn-md" id="add-topic-btn">Add Button</button>
+                    </div>
+                </div>
+
+                <!-- Will add a card for topic customization
+                <div class="card" id="custom-card">
+                    <div class="card-header">
+                        <h5 class="card-title">Wanna customize your grind?</h5>
+                    </div>
+                    <div class="card-body">
+                        <button type="search" class="btn btn-outline-info btn-md" id="clear">Clear Out</button>
+                        <h6><em>Then create your own buttons using the card above</em></h6>
+                    </div>
+                </div> -->
+
+                <!-- And a card for visited gifs record
+                <div class="card" id="list-card">
+                    <div class="card-body">
+                        <h5>Visited Grinds</h5>
+                        <hr>
+                        <div id="grind-list"></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Code to the JavaScript File -->
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
