@@ -1,2 +1,4 @@
 # GifTastic
-A website using the Giphy API to display a series of GIFs.
+A web application using the Giphy API to display a series of GIFs.
+
+https://dendevpro.github.io/GifTastic/.
